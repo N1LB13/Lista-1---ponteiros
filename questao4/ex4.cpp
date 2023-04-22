@@ -61,26 +61,26 @@ int main() {
   idade = *p4;
   printf("%d \n", idade);
   
-  // (i): 
+  // (i): será exibido o 45 
   p5 = p4 + 1;
   idade = *p5;
   printf("%d \n", idade);
   
-  /* (j) */
+  // (j): será exibido o 27
   p4 = p5 + 1;
   idade = *p4;
   printf("%d \n", idade);
   
-  /* (l) */
+  // (l): voltando dois indices no vetor, será exibido o número 31
   p4 = p4 - 2;
   idade = *p4;
   printf("%d \n", idade);
 
-  /* (m) */
+  // (m): exibirá o número 45
   p5 = &vetor[2] - 1;
   printf("%d \n", *p5);
   
-  /* (n) */
+  // (n): exibirá o número 27
   p5++;
   printf("%d \n", *p5);
   
